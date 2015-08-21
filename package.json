@@ -1,0 +1,29 @@
+{
+  "name": "helloslack",
+  "version": "0.0.0",
+  "description": "Send hello messages to new slack members",
+  "main": "lib/index.es6.js",
+  "scripts": {
+    "compile": "babel --experimental --optional runtime -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isqua/helloslack.git"
+  },
+  "keywords": [
+    "slack"
+  ],
+  "author": "isqua <isqua@isqua.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isqua/helloslack/issues"
+  },
+  "devDependencies": {
+    "babel": "~5.8.21"
+  },
+  "dependencies": {
+    "babel-runtime": "~5.8.20",
+    "ws": "~0.8.0"
+  }
+}
