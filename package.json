@@ -1,6 +1,6 @@
 {
   "name": "helloslack",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Send hello messages to new slack members",
   "main": "lib/index.es6.js",
   "scripts": {
